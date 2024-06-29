@@ -1,0 +1,50 @@
+{% comment %}
+Astronomy workshops
+{% endcomment %}
+
+
+{% if site.curriculum == "bioc-rnaseq" %}
+
+<p id="who">
+  <strong>Who:</strong>
+The course is aimed at graduate students and other researchers. This lesson assumes you have a working knowledge of R and some previous exposure to RStudio. 
+
+    The following <b>prerequisites</b> apply:
+
+    <ul>
+
+      <li>Familiarity with R/Bioconductor, such as taught
+      in <a href="https://carpentries-incubator.github.io/bioc-intro/">Introduction
+      to data analysis with R and Bioconductor</a> lesson.</li>
+
+      <li>Familiarity with statistical hypothesis testing, such
+      as <a href="https://web.stanford.edu/class/bios221/book/06-chap.html">Chapter
+      6</a> of Modern Statistics for Modern Biology book by Holmes and
+      Huber.</li>
+
+      <li>Familiarity with the biology of gene expression and RNA-seq, such as
+      <a href="https://pubmed.gov/31341269">RNA sequencing: the
+      teenage years</a> manuscript by Hadfield et.al.</li>
+
+    </ul>
+Learner profiles of hypothetical attendees of the RNA-Seq workshop can be found on <a href="https://carpentries-incubator.github.io/bioc-rnaseq/profiles.html">this page.</a><br>
+<br>
+Participants should bring their own laptops and plan to participate actively.
+</p>
+
+{% comment %}
+All other workshops
+{% endcomment %}
+
+{% else %}
+
+<p id="who">
+  <strong>Who:</strong>
+  The course is aimed at graduate students and other researchers.
+  <strong>
+    You don't need to have any previous knowledge of the tools
+    that will be presented at the workshop.
+  </strong>
+</p>
+
+{% endif %}
