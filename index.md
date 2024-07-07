@@ -3,9 +3,9 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Department of Statistics, University of Oxford"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "24-29 St Giles, Oxford, United Kingdom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
-country: "UK"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
+venue: "Department of Statistics, University of Oxford".  # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "24-29 St Giles, Oxford, United Kingdom"     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+country: "uk"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51.758580"        # decimal latitude of workshop venue (use https://www.latlong.net/)
 longitude: "-1.259930"       # decimal longitude of the workshop venue (use https://www.latlong.net)
@@ -176,10 +176,10 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong>
   {% if online == "false" %}
     Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they are able to install software on (i.e., administrative privileges).
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they are able to install software on (i.e., administrative privileges).
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
@@ -264,7 +264,7 @@ Display the contact email address set in the configuration file.
   fees.</li>
 
   <li>To register, please fill out the <b><a
-  href="https://forms.gle/wjVDmyLohFDSZDmq5">application form</a></b>.</li>
+  href="https://forms.gle/1MCfRd2enDZeAYB27">application form</a></b>.</li>
 
 </ul>
 
@@ -329,8 +329,6 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 </p>
 <hr/>
 {% endif %}
-
-
 {% comment %}
 SCHEDULE
 
