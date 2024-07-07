@@ -3,8 +3,8 @@ layout: workshop      # DON'T CHANGE THIS.
 # More detailed instructions (including how to fill these variables for an
 # online workshop) are available at
 # https://carpentries.github.io/workshop-template/customization/index.html
-venue: "Department of Statistics, University of Oxford".  # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
-address: "24-29 St Giles, Oxford, United Kingdom"     # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
+venue: "Department of Statistics, University of Oxford"        # brief name of the institution that hosts the workshop without address (e.g., "Euphoric State University")
+address: "24-29 St Giles, Oxford, United Kingdom"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria"), videoconferencing URL, or 'online'
 country: "UK"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1#Current_codes) for the institution that hosts the workshop
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for the workshop
 latitude: "51.758580"        # decimal latitude of workshop venue (use https://www.latlong.net/)
@@ -12,7 +12,7 @@ longitude: "-1.259930"       # decimal longitude of the workshop venue (use http
 humandate: "Sep 2-3, 2024"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "9:00 am - 5:00 pm ET"    # human-readable times for the workshop e.g., "9:00 am - 4:30 pm CEST (7:00 am - 2:30 pm UTC)"
 startdate: 2024-09-02      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
-startdate: 2024-09-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
+enddate: 2024-09-03        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Olly Crook", "Marcel Ramos", "Laurent Gatto"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Maria Doyle"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["maria.doyle@ul.ie", "oliver.crook@stats.ox.ac.uk"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
@@ -176,10 +176,10 @@ Modify the block below if there are any special requirements.
   <strong>Requirements:</strong>
   {% if online == "false" %}
     Participants must bring a laptop with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they are able to install software on (i.e., administrative privileges).
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% else %}
     Participants must have access to a computer with a
-    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they are able to install software on (i.e., administrative privileges).
+    Mac, Linux, or Windows operating system (not a tablet, Chromebook, etc.) that they have administrative privileges on.
   {% endif %}
   They should have a few specific software packages installed (listed <a href="#setup">below</a>).
 </p>
@@ -264,7 +264,7 @@ Display the contact email address set in the configuration file.
   fees.</li>
 
   <li>To register, please fill out the <b><a
-  href="https://forms.gle/1MCfRd2enDZeAYB27">application form</a></b>.</li>
+  href="https://forms.gle/wjVDmyLohFDSZDmq5">application form</a></b>.</li>
 
 </ul>
 
@@ -329,6 +329,8 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 </p>
 <hr/>
 {% endif %}
+
+
 {% comment %}
 SCHEDULE
 
